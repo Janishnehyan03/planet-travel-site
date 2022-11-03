@@ -1,0 +1,175 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  text-transform: capitalize;
+  border: none;
+  outline: none;
+  font-family: "Poppins", sans-serif;
+  list-style: none;
+}
+:root {
+  --primary-color: #1d57f0;
+  --secondary-color: #e9efff;
+  --dark-blue: rgb(19, 17, 48);
+  --gray: rgb(31, 30, 30);
+}
+section {
+  margin: 10px 6rem;
+}
+p {
+  color: var(--gray);
+  letter-spacing: 1px;
+  line-height: 20px;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  height: 100px;
+  align-items: center;
+}
+.header ul li {
+  display: inline-block;
+}
+.header ul li a {
+  color: var(--dark-blue);
+  margin-right: 10px;
+}
+.header button {
+  background-color: var(--primary-color);
+  padding: 1rem 2rem;
+  border-radius: 10px;
+  color: white;
+  /* font-weight: bold; */
+  font-size: 20px;
+}
+.banner {
+  background-color: var(--secondary-color);
+  border-radius: 30px;
+}
+.banner .container {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 4rem;
+}
+.banner h1 {
+  font-size: 60px;
+  margin: 3rem 0;
+}
+.banner img {
+  width: 500px;
+}
+.banner button {
+  margin-top: 2rem;
+  padding: 1.5rem 3rem;
+  border-radius: 10px;
+  background-color: var(--primary-color);
+  color: white;
+  font-weight: bold;
+}
+.title {
+  font-size: 50px;
+  color: var(--dark-blue);
+  text-align: center;
+  font-weight: bold;
+  margin: 4rem 0;
+}
+.destinations .images {
+  display: flex;
+}
+.destinations .col {
+  flex-basis: 33%;
+  margin: 0 2rem;
+  box-shadow: 5px 5px 20px rgba(0 0 0/0.15);
+  border-radius: 10px;
+}
+.destinations .col img {
+  height: 15rem;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  /* border-radius: 10px 10px 0 0; */
+}
+
+.destinations .flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+}
+.destinations .content {
+  padding: 10px;
+}
+.destinations .col button {
+  background-color: var(--primary-color);
+  padding: 10px 1rem;
+  color: white;
+  border-radius: 5px;
+}
+.destinations h3 {
+  margin: 10px 0;
+}
+.destinations p {
+  letter-spacing: 1px;
+}
+
+.features .container {
+  display: flex;
+  margin: 4rem 0;
+}
+.features img {
+  width: 800px;
+  border-radius: 30px;
+  margin-right: 4rem;
+}
+.features .container h1 {
+  font-size: 50px;
+  color: var(--dark-blue);
+  padding-bottom: 2rem;
+}
+.features .container button {
+  padding: 20px 30px;
+  background-color: var(--primary-color);
+  border-radius: 5px;
+  color: white;
+  margin-top: 2rem;
+}
+.contact {
+  background-color: var(--secondary-color);
+  padding: 4rem;
+  text-align: center;
+  border-radius: 10px;
+}
+.contact h1 {
+  margin: 1rem 0;
+}
+.contact button {
+  background-color: var(--primary-color);
+  padding: 1rem 2rem;
+  color: white;
+  margin-top: 2rem;
+  /* font-weight: bold; */
+  font-size: 20px;
+}
+footer {
+  padding: 4rem;
+  margin-top: 2rem;
+  background-color: var(--dark-blue);
+  color: white;
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+}
+footer p{
+  color: white;
+}
+footer span{
+  color: var(--primary-color);
+}
+footer ul {
+  display: flex;
+}
+footer ul li {
+  margin: 0 10px;
+}
